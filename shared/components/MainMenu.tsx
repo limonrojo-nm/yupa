@@ -5,11 +5,11 @@ import MainMenuIcon from 'shared/components/MainMenuIcon'
 import { useTheme } from 'styles/theme'
 
 const routes = [
-  { name: 'Inicio', icon: 'home', href: '/' },
-  { name: 'Proyectos', icon: 'home', href: '/' },
-  { name: 'Piezas', icon: 'home', href: '/' },
-  { name: 'Audios', icon: 'home', href: '/' },
-  { name: 'Textos', icon: 'home', href: '/' },
+  { name: 'Inicio', icon: 'inicio', href: '/' },
+  { name: 'Proyectos', icon: 'Proyectos', href: '/projects' },
+  { name: 'Piezas', icon: 'piezas', href: '/' },
+  { name: 'Audios', icon: 'audios', href: '/' },
+  { name: 'Textos', icon: 'textos', href: '/' },
 ]
 
 const MainMenu = () => {
