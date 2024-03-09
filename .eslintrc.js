@@ -42,6 +42,7 @@ module.exports = {
       'ignoreStrings': true,
       'ignoreTemplateLiterals': true,
     }],
+    'react/react-in-jsx-scope': _.OFF,
     'react-hooks/exhaustive-deps': _.OFF,
     // '@next/next/no-html-link-for-pages': [_.OFF],
     'no-relative-import-paths/no-relative-import-paths': [
