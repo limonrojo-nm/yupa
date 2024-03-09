@@ -1,13 +1,13 @@
-import { StatusBar } from 'expo-status-bar'
+
 import React from 'react'
-import { StyleSheet, View } from 'react-native'
+import { StyleSheet  } from 'react-native'
 import Text from 'shared/components/Text'
+import View from 'shared/components/View'
 
 const HomeScreen = () => {
   return (
     <View style= { styles.container } >
       <Text>HOME screen</Text>
-      <StatusBar style = "auto" />
     </View>
   )
 }

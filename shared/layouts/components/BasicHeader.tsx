@@ -1,6 +1,6 @@
 import React from 'react'
-import { View } from 'react-native'
 import Text from 'shared/components/Text'
+import View from 'shared/components/View'
 
 const BasicHeader = () => {
   return (

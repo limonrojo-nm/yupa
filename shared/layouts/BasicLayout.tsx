@@ -6,6 +6,8 @@ import BasicFooter from './components/BasicFooter'
 import { useFonts } from 'expo-font'
 import * as SplashScreen from 'expo-splash-screen'
 import { useCallback } from 'react'
+import { StatusBar } from 'expo-status-bar'
+
 
 SplashScreen.preventAutoHideAsync()
 
@@ -37,6 +39,8 @@ const HomeLayout = () => {
     <BasicHeader />
     <Slot />
     <BasicFooter />
+
+    <StatusBar style='auto' />
   </SafeAreaView>
 }
 
