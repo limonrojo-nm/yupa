@@ -1,12 +1,11 @@
+import { useFonts } from 'expo-font'
 import { Slot } from 'expo-router'
+import * as SplashScreen from 'expo-splash-screen'
+import { StatusBar } from 'expo-status-bar'
+import { useCallback } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from 'styles/theme'
-import BasicHeader from './components/BasicHeader'
 import BasicFooter from './components/BasicFooter'
-import { useFonts } from 'expo-font'
-import * as SplashScreen from 'expo-splash-screen'
-import { useCallback } from 'react'
-import { StatusBar } from 'expo-status-bar'
 
 
 SplashScreen.preventAutoHideAsync()
@@ -36,7 +35,6 @@ const HomeLayout = () => {
       backgroundColor:t.colors.mainBackground,
     }}
   >
-    <BasicHeader />
     <Slot />
     <BasicFooter />
 

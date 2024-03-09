@@ -1,26 +1,30 @@
 
 import React from 'react'
-import { StyleSheet  } from 'react-native'
+import Screen from 'shared/components/Screen'
+import ScreenTitle from 'shared/components/ScreenTitle'
 import Text from 'shared/components/Text'
 import View from 'shared/components/View'
 
+
 const HomeScreen = () => {
-  return (
-    <View style= { styles.container } >
-      <Text>HOME screen</Text>
-    </View>
-  )
+  return <Screen>
+    <Screen.Header>
+      <Text>¡Hola Nico!</Text>
+      <ScreenTitle>¿Qué querés hacer hoy?</ScreenTitle>
+    </Screen.Header>
+    <Screen.Content>
+      <View>
+        <View></View>
+        <View>
+          <View></View>
+          <View>
+            <View></View>
+            <View></View>
+          </View>
+        </View>
+      </View>
+    </Screen.Content>
+  </Screen>
 }
 
 export default HomeScreen
-
-const white = '#fff'
-
-const styles = StyleSheet.create({
-  container: {
-    alignItems: 'center',
-    backgroundColor: white,
-    flex: 1,
-    justifyContent: 'center',
-  },
-})

@@ -45,6 +45,7 @@ module.exports = {
     'react/react-in-jsx-scope': _.OFF,
     'react-hooks/exhaustive-deps': _.OFF,
     'react-native/no-inline-styles': _.OFF,
+    'react-native/no-raw-text': _.OFF,
     // '@next/next/no-html-link-for-pages': [_.OFF],
     'no-relative-import-paths/no-relative-import-paths': [
       _.ERROR,
